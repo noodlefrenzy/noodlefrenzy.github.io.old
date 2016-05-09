@@ -1,76 +1,124 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Noodlefrenzy.GitHub.io by noodlefrenzy</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>noodlefrenzy's Pages</title>
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="javascripts/respond.js"></script>
+  <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <!--[if lt IE 8]>
+  <!--[if lt IE 8]>
     <link rel="stylesheet" href="stylesheets/ie.css">
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/noodlefrenzy">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
+</head>
 
-    <div class="wrapper">
+<body>
+  <div id="header">
+    <nav>
+      <li class="fork"><a href="https://github.com/noodlefrenzy">View On GitHub</a></li>
+    </nav>
+  </div>
+  <!-- end header -->
 
-      <section>
-        <div id="title">
-          <h1>Noodlefrenzy.GitHub.io</h1>
-          <p>Noodlefrenzy&#39;s Pages</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/noodlefrenzy">noodlefrenzy</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+  <div class="wrapper">
 
-        <h1>
+    <section>
+      <div id="title">
+        <h1>Noodlefrenzy&#39;s Pages</h1>
+        <hr>
+        <span class="credits left">Project maintained by <a href="https://github.com/noodlefrenzy">noodlefrenzy</a></span>
+        <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+      </div>
+
+      <h1>
 <a id="welcome-to-noodlefrenzys-github-pages" class="anchor" href="#welcome-to-noodlefrenzys-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Noodlefrenzy's GitHub Pages</h1>
 
-<p>Hi there, my name is Mike Lanzetta but I typically go by <a href="https://github.com/noodlefrenzy" class="user-mention">@noodlefrenzy</a> online. I work at Microsoft on a team that mostly develops open-source software in collaboration with startups or lab teams in enterprise organizations. Most of our team checks code directly into GitHub, and we maintain a fairly active presence online - blogging, tweeting, etc. We also give talks at conferences (some more than others), and we try and make sure problems and issues that people are having with Microsoft products (in particular Azure) get communicated (sometimes aggressively) back to the teams responsible.</p>
+      <p>Hi there, my name is Mike Lanzetta but I typically go by <a href="https://github.com/noodlefrenzy" class="user-mention">@noodlefrenzy</a>        online. I work at Microsoft on a team that mostly develops open-source software in collaboration with startups or
+        lab teams in enterprise organizations. Most of our team checks code directly into GitHub, and we maintain a fairly
+        active presence online - blogging, tweeting, etc. We also give talks at conferences (some more than others), and
+        we try and make sure problems and issues that people are having with Microsoft products (in particular Azure) get
+        communicated (sometimes aggressively) back to the teams responsible.</p>
 
-<h2>
+      <h2>
 <a id="my-github-repos" class="anchor" href="#my-github-repos" aria-hidden="true"><span class="octicon octicon-link"></span></a>My GitHub Repos</h2>
 
-<ul>
-<li>
-<a href="https://github.com/noodlefrenzy/node-amqp10">node-amqp10</a>: An AMQP 1.0 client implementation entirely in Node - no native code dependencies.</li>
-<li>
-<a href="https://github.com/noodlefrenzy/node-sbus">node-sbus</a> and <a href="https://github.com/noodlefrenzy/node-sbus-amqp10">node-sbus-amqp10</a>: <code>node-sbus</code> provides easy connection to Azure Event Hubs using any AMQP 1.0 client, tracking partition offsets in Azure. <code>node-sbus-amqp10</code> uses my <code>node-amqp10</code> as the implementation of the AMQP dependency (and is the one you should actively use in your project).</li>
-</ul>
+      <ul>
+        <li>
+          <a href="https://github.com/noodlefrenzy/node-amqp10">node-amqp10</a>: An AMQP 1.0 client implementation entirely
+          in Node - no native code dependencies.</li>
+        <li>
+          <a href="https://github.com/noodlefrenzy/node-sbus">node-sbus</a> and <a href="https://github.com/noodlefrenzy/node-sbus-amqp10">node-sbus-amqp10</a>:
+          <code>node-sbus</code> provides easy connection to Azure Event Hubs using any AMQP 1.0 client, tracking partition
+          offsets in Azure. <code>node-sbus-amqp10</code> uses my <code>node-amqp10</code> as the implementation of the AMQP
+          dependency (and is the one you should actively use in your project).</li>
+        <li>
+          <a href="https://github.com/Azure/azure-event-hubs">azure-event-hubs</a>: I wrote the Node.js version of the Event
+          Hubs library, based on my work with node-amqp10. This <b>replaces</b> node-sbus!
+        </li>
+        <li>
+          <a href="https://github.com/noodlefrenzy/node-cerulean">node-cerulean</a>: Utility methods for working with Azure.
+          Current version focused on enhanced functionality for Azure Blob Leases to allow for e.g. distributed consensus.
+          This is used for my implementation of the Node.js version of the Event Hubs EventProcessorHost.
+        </li>
+        <li>
+          <a href="https://github.com/noodlefrenzy/asp-mappy">asp-mappy</a>: (Hopefully) simple example of how to wire up an ASP.Net application using SignalR to deliver GeoJSON content to a Leaflet map running on a SPA.
+        </li>
+      </ul>
 
-<h2>
+      <h2>
+<a id="my-talks-and-videos" class="anchor" href="#my-talks-and-videos" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Talks and Videos</h2>
+
+      <ul>
+        <li>
+          <a href="https://noodlefrenzy.github.io/Cascadia2015-NitrogenPres/#/">Nitrogen/AMQP Talk</a> at CascadiaFest 2015<br/>
+          <a href="https://github.com/noodlefrenzy/Cascadia2015-NitrogenPres">The talk&apos;s repo</a> (written using Reveal.js)<br/>
+          <a href="https://www.youtube.com/watch?v=99zXI6CZNGM">and the video</a> of the talk.
+        <li>
+          <a href="http://www.decodedshow.com/events/#!/detail/36">Machine Learning on Spark on Azure</a>:<br/>
+          <a href="https://github.com/noodlefrenzy/DecodedSparkML">DecodedSparkML</a>: Code repo for the talk, contains the
+          deck as well as example code.
+        </li>
+        <li>
+          <a href="http://www.decodedshow.com/events/#!/detail/37">Deep Learning with CNTK</a>:<br/>
+          <a href="https://github.com/noodlefrenzy/DecodedCNTK">DecodedCNTK</a>: Code repo for the talk, contains the deck.
+        </li>
+        <li>
+          <a href="https://channel9.msdn.com/Blogs/Technology-and-Friends/tf411">Channel9 talk on CNTK</a>
+        </li>
+        <li>
+          <a href="http://irishtechnews.net/ITN3/ivan-judsonand-michael-lanzetta-from-microsoft-appear-on-the-latest-irish-tech-news-podcast/">Interview with Irish Technical News re: Deep Learning and the future of AI/ML.</a>
+        </li>
+      </ul>
+
+      <h2>
 <a id="other-information" class="anchor" href="#other-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other Information</h2>
 
-<ul>
-<li><a href="http://www.mikelanzetta.com">My Blog</a></li>
-<li><a href="https://www.twitter.com/noodlefrenzy">My Twitter</a></li>
-</ul>
-      </section>
+      <ul>
+        <li><a href="http://www.mikelanzetta.com">My Blog</a></li>
+        <li><a href="https://www.twitter.com/noodlefrenzy">My Twitter</a></li>
+      </ul>
+    </section>
 
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  </div>
+  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
+  </script>
+  <script type="text/javascript">
+    try {
               var pageTracker = _gat._getTracker("UA-54597100-2");
             pageTracker._trackPageview();
             } catch(err) {}
-          </script>
+  </script>
 
-  </body>
+</body>
+
 </html>
